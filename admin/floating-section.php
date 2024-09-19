@@ -6,19 +6,19 @@ function imba_seo_floating_section() {
             <h3 style="margin: 0 0 10px;font-size:16px;font-weight:600;color:#0073aa;">Imba SEO</h3>
             <div style="margin-bottom:15px;">
                 <a href="<?php echo admin_url('admin.php?page=imba-seo-plugin'); ?>" style="background-color:#0073aa;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;display:inline-block;width:100%;font-size:14px;">
-                    Admin Page
+                    Imba Admin Central
                 </a>
             </div>
             <div style="margin-bottom:15px;">
-                <a href="https://yourwebsite.com/contact" target="_blank" style="background-color:#46b450;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;display:inline-block;width:100%;font-size:14px;">
-                    Contact Us
+                <a href="https://imbaseo.se/kontakta-oss/" target="_blank" style="background-color:#46b450;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;display:inline-block;width:100%;font-size:14px;">
+                    Kontakta oss
                 </a>
             </div>
         </div>
 
         <!-- Minimize Button -->
         <button id="imba-seo-minimize" style="background:none;border:none;color:#0073aa;cursor:pointer;padding:5px;">
-            <span id="imba-seo-toggle-text">Minimize</span>
+            <span id="imba-seo-toggle-text">Minimera denna rutan</span>
         </button>
     </div>
 
