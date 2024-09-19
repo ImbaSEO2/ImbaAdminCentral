@@ -23,35 +23,27 @@ function imba_seo_admin_page() {
         <div id="Home" class="imba-tabcontent" style="display: block;">
             <div class="imba-cards">
                 <div class="imba-card">
-                    <h3>Sökmotoroptimering</h3>
-                    <p>Öka din webbplats synlighet med våra expert-SEO-tjänster! Oavsett om du behöver ett grundläggande paket eller avancerad optimering, erbjuder vi olika nivåer anpassade efter dina behov. Att höja din SEO-nivå innebär mer trafik, högre placeringar och bättre resultat för ditt företag. Låt oss växa din online-närvaro tillsammans!.</p>
+                    <h3>Sökmotoroptimering nivå 1</h3>
+                    <p>Öka din synlighet och få mer trafik med vår tjänst SEO Nivå 1! Låt oss optimera din webbplats för att nå nya höjder i sökresultaten, öka engagemanget och växa din verksamhet.</p>
                     <div class="imba-card-footer">
                         <a href="https://imbaseo.se/kontakta-oss/" class="imba-icon-link">📄 Kontakta oss</a>
-                        <a href="https://imbaseo.se/sokmotoroptimering/" class="imba-icon-link">⚙️ Se våra lösningar</a>
+                        <a href="https://imbaseo.se/sokmotoroptimering/" class="imba-icon-link">⚙️ Läs mer om SEO nivå 1</a>
                     </div>
                 </div>
                 <div class="imba-card">
-                    <h3>Typography Options</h3>
-                    <p>Set the footer type, number of columns, spacing, and colors.</p>
+                    <h3>Sökmotoroptimering nivå 2</h3>
+                    <p>Maximera din onlinepotential med vår tjänst SEO Nivå 2! Få avancerade optimeringsstrategier som ger ännu mer trafik, förbättrar konverteringar och ger ditt företag en konkurrensfördel..</p>
                     <div class="imba-card-footer">
-                        <a href="#" class="imba-icon-link">📄 Documentation</a>
-                        <a href="#" class="imba-icon-link">⚙️ Customize</a>
+                        <a href="https://imbaseo.se/kontakta-oss/" class="imba-icon-link">📄 Kontakta oss</a>
+                        <a href="https://imbaseo.se/sokmotoroptimering/" class="imba-icon-link">⚙️ Läs mer om SEO nivå 2</a>
                     </div>
                 </div>
                 <div class="imba-card">
-                    <h3>Awesome stuff</h3>
-                    <p>Set the footer type, number of columns, spacing, and colors.</p>
+                    <h3>Sökmotoroptimering nivå 3</h3>
+                    <p>Dominera sökresultaten med vår tjänst SEO Nivå 3! Upplev storskalig optimering, skräddarsydda strategier och premiumsupport för att säkerställa maximal trafik, konverteringar och långsiktig tillväxt för ditt företag.</p>
                     <div class="imba-card-footer">
-                        <a href="#" class="imba-icon-link">📄 Documentation</a>
-                        <a href="#" class="imba-icon-link">⚙️ Customize</a>
-                    </div>
-                </div>
-                <div class="imba-card">
-                    <h3>coolers</h3>
-                    <p>Set the footer type, number of columns, spacing, and colors.</p>
-                    <div class="imba-card-footer">
-                        <a href="#" class="imba-icon-link">📄 Documentation</a>
-                        <a href="#" class="imba-icon-link">⚙️ Customize</a>
+                        <a href="https://imbaseo.se/kontakta-oss/" class="imba-icon-link">📄 Kontakta oss</a>
+                        <a href="https://imbaseo.se/sokmotoroptimering/" class="imba-icon-link">⚙️ Läs mer om SEO nivå 2</a>
                     </div>
                 </div>
             </div>
