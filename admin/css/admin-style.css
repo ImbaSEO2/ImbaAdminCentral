@@ -1,0 +1,18 @@
+/* Tabbed content styling */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.tablinks.active {
+    background-color: #f1f1f1;
+}
+
+/* Floating button styling */
+#imba-seo-floating-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
