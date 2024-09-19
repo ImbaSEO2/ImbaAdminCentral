@@ -69,11 +69,20 @@ function imba_seo_plugin_update_info($false, $action, $arg) {
             $response->name = 'Imba SEO Plugin';
             $response->slug = IMBA_SEO_PLUGIN_SLUG;
             $response->version = $version_data['version'];
-            $response->tested = '6.0'; // Last WordPress version you tested against
+            $response->tested = '6.6.2'; // Last WordPress version you tested against
             $response->requires = '5.0'; // Minimum WordPress version required
             $response->author = '<a href="https://imbaseo.se">Imba SEO</a>';
             $response->homepage = 'https://imbaseo.se';
             $response->download_link = $version_data['url'];
+            // Add sections such as Changelog, Description, and Installation Instructions
+            $response->sections = array(
+                'description' => '<p>A plugin that let our customer to have a hub and always reach us.</p>',
+                'changelog' => '<h4>Version ' . $version_data['version'] . '</h4><ul>
+                                    <li>Just some minor changes to the header in the PHP file.</li>
+                                    <li>Bug fix: Fixed issue with the SEO keyword tool.</li>
+                                </ul>',
+                'installation' => '<p>To install this plugin, simply click on the button down in the right corner of this popup.</p>'
+            );
             $response->banners = array(); // Optionally, you can add banners or other info here
 
             return $response;
