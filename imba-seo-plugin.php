@@ -2,7 +2,7 @@
 /*
 Plugin Name: Imba Admin Central
 Description: A plugin that let our customer to have a hub and always reach us.
-Version: 1.3
+Version: 1.4
 Author: Mikael
 Author URI: https://imbaseo.se
 */
@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define the plugin slug and current version
-define('IMBA_SEO_PLUGIN_VERSION', '1.3');  // Current plugin version
+define('IMBA_SEO_PLUGIN_VERSION', '1.4');  // Current plugin version
 define('IMBA_SEO_PLUGIN_SLUG', 'ImbaAdminCentral/imba-seo-plugin.php');  // Plugin slug (plugin-folder/plugin-file.php)
 
 // Hook into the update system
@@ -78,8 +78,8 @@ function imba_seo_plugin_update_info($false, $action, $arg) {
             $response->sections = array(
                 'description' => '<p>A plugin that let our customer to have a hub and always reach us.</p>',
                 'changelog' => '<h4>Version ' . $version_data['version'] . '</h4><ul>
-                                    <li>Just some minor changes to the header in the PHP file.</li>
-                                    <li>Bug fix: Fixed issue with the SEO keyword tool.</li>
+                                    <li>Added some links in the SEO section tab.</li>
+                                    <li>Added some links in the Google Ads tab.</li>
                                 </ul>',
                 'installation' => '<p>To install this plugin, simply click on the button down in the right corner of this popup.</p>'
             );
