@@ -1,92 +1,86 @@
 <?php
 /*
-Plugin Name: Imba SEO Plugin
-Description: SEO plugin for managing SEO, Google Ads, and Web Development services.
-Version: 1.0
-Author: Imba SEO
+Plugin Name: Imba Admin Central
+Description: A plugin that let our customer to have a hub and always reach us.
+Version: 1.3
+Author: Mikael
+Author URI: https://imbaseo.se
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 
-// Define the remote version JSON file and plugin slug
+// Define the plugin slug and current version
 define('IMBA_SEO_PLUGIN_VERSION', '1.0');  // Current plugin version
-define('IMBA_SEO_PLUGIN_SLUG', 'ImbaAdminCentral');  // Plugin folder name
+define('IMBA_SEO_PLUGIN_SLUG', 'ImbaAdminCentral/imba-seo-plugin.php');  // Plugin slug (plugin-folder/plugin-file.php)
 
-// Hook into the 'init' action to check for updates
-add_action('init', 'imba_seo_check_for_updates');
+// Hook into the update system
+add_filter('pre_set_site_transient_update_plugins', 'imba_seo_check_for_plugin_update');
 
-function imba_seo_check_for_updates() {
-    $remote_version_url = 'https://example.com/version.json';  // Remote version file
+function imba_seo_check_for_plugin_update($transient) {
+    if (empty($transient->checked)) {
+        return $transient;  // No plugins checked yet
+    }
+
+    // Remote version JSON file
+    $remote_version_url = 'https://raw.githubusercontent.com/ImbaSEO2/ImbaAdminCentral/refs/heads/main/version.json';
 
     // Fetch the remote version data
     $response = wp_remote_get($remote_version_url);
 
-    if (is_wp_error($response)) {
-        return;  // Exit if there's an error fetching the version file
-    }
+    if (!is_wp_error($response)) {
+        $version_data = json_decode(wp_remote_retrieve_body($response), true);
 
-    // Parse the response body as JSON
-    $version_data = json_decode(wp_remote_retrieve_body($response), true);
+        // Check if the remote version is greater than the current version
+        if (isset($version_data['version']) && version_compare(IMBA_SEO_PLUGIN_VERSION, $version_data['version'], '<')) {
+            // Plugin data for the update
+            $plugin_data = array(
+                'slug'        => IMBA_SEO_PLUGIN_SLUG,
+                'new_version' => $version_data['version'],
+                'url'         => 'https://imbaseo.se', // Optional info page for your plugin
+                'package'     => $version_data['url'],  // The URL to download the updated plugin ZIP file
+            );
 
-    if (!$version_data || empty($version_data['version'])) {
-        return;  // Exit if version data is invalid
-    }
-
-    // Compare the remote version with the current version
-    if (version_compare(IMBA_SEO_PLUGIN_VERSION, $version_data['version'], '<')) {
-        // If a new version is available, proceed with the update
-        add_action('admin_notices', 'imba_seo_update_notice');
-        update_option('imba_seo_update_url', $version_data['url']);
-    }
-}
-
-function imba_seo_update_notice() {
-    $update_url = get_option('imba_seo_update_url');
-    ?>
-    <div class="notice notice-warning is-dismissible">
-        <p>A new version of Imba SEO Plugin is available. <a href="<?php echo esc_url(admin_url('?action=imba_seo_update_plugin&update_url=' . urlencode($update_url))); ?>">Update now</a>.</p>
-    </div>
-    <?php
-}
-
-// Add a custom action to handle the plugin update
-add_action('admin_init', 'imba_seo_update_plugin');
-
-function imba_seo_update_plugin() {
-    if (isset($_GET['action']) && $_GET['action'] == 'imba_seo_update_plugin') {
-        if (isset($_GET['update_url'])) {
-            $update_url = esc_url_raw($_GET['update_url']);
-            imba_seo_perform_update($update_url);
+            // Add the plugin to the list of plugins that need updates
+            $transient->response[IMBA_SEO_PLUGIN_SLUG] = (object) $plugin_data;
         }
     }
+
+    return $transient;
 }
 
-function imba_seo_perform_update($url) {
-    // Download the plugin ZIP file from the remote server
-    $download_file = download_url($url);
+// Hook into the plugins API to provide more details about the plugin update
+add_filter('plugins_api', 'imba_seo_plugin_update_info', 10, 3);
 
-    if (is_wp_error($download_file)) {
-        wp_die('Failed to download the plugin update.');
+function imba_seo_plugin_update_info($false, $action, $arg) {
+    if (isset($arg->slug) && $arg->slug === IMBA_SEO_PLUGIN_SLUG) {
+        // Remote version JSON file
+        $remote_version_url = 'https://raw.githubusercontent.com/ImbaSEO2/ImbaAdminCentral/refs/heads/main/version.json';
+
+        // Fetch the remote version data
+        $response = wp_remote_get($remote_version_url);
+
+        if (!is_wp_error($response)) {
+            $version_data = json_decode(wp_remote_retrieve_body($response), true);
+
+            // Build the response object with plugin details
+            $response = new stdClass();
+            $response->name = 'Imba SEO Plugin';
+            $response->slug = IMBA_SEO_PLUGIN_SLUG;
+            $response->version = $version_data['version'];
+            $response->tested = '6.0'; // Last WordPress version you tested against
+            $response->requires = '5.0'; // Minimum WordPress version required
+            $response->author = '<a href="https://imbaseo.se">Imba SEO</a>';
+            $response->homepage = 'https://imbaseo.se';
+            $response->download_link = $version_data['url'];
+            $response->banners = array(); // Optionally, you can add banners or other info here
+
+            return $response;
+        }
     }
 
-    // Unzip and replace the old plugin files
-    $plugin_dir = WP_PLUGIN_DIR . '/' . IMBA_SEO_PLUGIN_SLUG;
-
-    // Unzip the file and replace the plugin folder
-    $result = unzip_file($download_file, $plugin_dir);
-
-    if (is_wp_error($result)) {
-        wp_die('Failed to unzip and update the plugin.');
-    }
-
-    // Delete the downloaded ZIP file
-    unlink($download_file);
-
-    // Display a success message
-    wp_redirect(admin_url('plugins.php?updated=true'));
-    exit;
+    return $false;
 }
 
 // Include the admin page
