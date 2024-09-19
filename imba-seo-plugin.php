@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define the plugin slug and current version
-define('IMBA_SEO_PLUGIN_VERSION', '1.0');  // Current plugin version
+define('IMBA_SEO_PLUGIN_VERSION', '1.3');  // Current plugin version
 define('IMBA_SEO_PLUGIN_SLUG', 'ImbaAdminCentral/imba-seo-plugin.php');  // Plugin slug (plugin-folder/plugin-file.php)
 
 // Hook into the update system
