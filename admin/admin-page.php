@@ -23,11 +23,11 @@ function imba_seo_admin_page() {
         <div id="Home" class="imba-tabcontent" style="display: block;">
             <div class="imba-cards">
                 <div class="imba-card">
-                    <h3>Color Options</h3>
-                    <p>Manage the colour palette, as well as setting colours for different elements of the website.</p>
+                    <h3>Sökmotoroptimering</h3>
+                    <p>Öka din webbplats synlighet med våra expert-SEO-tjänster! Oavsett om du behöver ett grundläggande paket eller avancerad optimering, erbjuder vi olika nivåer anpassade efter dina behov. Att höja din SEO-nivå innebär mer trafik, högre placeringar och bättre resultat för ditt företag. Låt oss växa din online-närvaro tillsammans!.</p>
                     <div class="imba-card-footer">
-                        <a href="#" class="imba-icon-link">📄 Documentation</a>
-                        <a href="#" class="imba-icon-link">⚙️ Customize</a>
+                        <a href="https://imbaseo.se/kontakta-oss/" class="imba-icon-link">📄 Kontakta oss</a>
+                        <a href="https://imbaseo.se/sokmotoroptimering/" class="imba-icon-link">⚙️ Se våra lösningar</a>
                     </div>
                 </div>
                 <div class="imba-card">
