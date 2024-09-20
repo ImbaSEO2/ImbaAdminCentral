@@ -6,7 +6,7 @@ function imba_seo_floating_section() {
 
     <div id="imba-seo-floating-section" class="floating-visible">
         <div id="imba-seo-content">
-            <h3 style="margin: 0 0 10px;font-size:16px;font-weight:600;color:#0073aa;">Imba SEO</h3>
+            <h3 style="margin: 0 0 10px;font-size:16px;font-weight:600;color:#0073aa;">Imba Admin Central</h3>
             <div style="margin-bottom:15px;">
                 <a href="<?php echo admin_url('admin.php?page=imba-seo-plugin'); ?>" style="background-color:#0073aa;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;display:inline-block;width:100%;font-size:14px;">
                     Imba Admin Central
