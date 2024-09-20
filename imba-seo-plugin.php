@@ -2,7 +2,7 @@
 /*
 Plugin Name: Imba Admin Central
 Description: A plugin that let our customer to have a hub and always reach us.
-Version: 1.5
+Version: 1.6
 Author: Mikael
 Author URI: https://imbaseo.se
 */
@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define the plugin slug and current version
-define('IMBA_SEO_PLUGIN_VERSION', '1.5');  // Current plugin version
+define('IMBA_SEO_PLUGIN_VERSION', '1.6');  // Current plugin version
 define('IMBA_SEO_PLUGIN_SLUG', 'ImbaAdminCentral/imba-seo-plugin.php');  // Plugin slug (plugin-folder/plugin-file.php)
 
 // Hook into the update system
