@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 
-// Define the plugin slug and current version
+// Define the plugin slug and current versions
 define('IMBA_SEO_PLUGIN_VERSION', '1.6');  // Current plugin version
 define('IMBA_SEO_PLUGIN_SLUG', 'ImbaAdminCentral/imba-seo-plugin.php');  // Plugin slug (plugin-folder/plugin-file.php)
 
