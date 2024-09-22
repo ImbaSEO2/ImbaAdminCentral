@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-09-22 11:38+0200\n"
+"PO-Revision-Date: 2024-09-22 11:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-page.php:8
+msgid "Imba SEO Plugin"
+msgstr "Imba SEO"
+
+#: admin/admin-page.php:13
+msgid "Choose Currency:"
+msgstr "Välj valuta: "
+
+#: admin/admin-page.php:15
+msgid "SEK"
+msgstr "SEK"
+
+#: admin/admin-page.php:16
+msgid "Euro"
+msgstr "Euro"
+
+#: admin/admin-page.php:22
+msgid "Home"
+msgstr "Hem"
+
+#: admin/admin-page.php:23
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/admin-page.php:24
+msgid "Google Ads"
+msgstr "Google Ads"
+
+#: admin/admin-page.php:25
+msgid "Web Imba Websites"
+msgstr "Web Imba hemsidor"
+
+#: admin/admin-page.php:26
+msgid "Web Imba Ecommerce"
+msgstr "Web Imba webbutiker"
+
+#: admin/admin-page.php:27
+msgid "Social Media"
+msgstr "Social Medier"
+
+#: admin/admin-page.php:28
+msgid "Blog Management"
+msgstr "Blogghantering"
+
+#: admin/admin-page.php:29
+msgid "Analytics"
+msgstr "Analytics"
+
+#: admin/floating-section.php:6 imba-seo-plugin.php:113
+msgid "Imba SEO"
+msgstr "Imba "
+
+#: admin/floating-section.php:9
+msgid "Admin Page"
+msgstr "Adminsida"
+
+#: admin/floating-section.php:14
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#: admin/floating-section.php:21 admin/floating-section.php:50
+msgid "Minimize"
+msgstr "Minimera"
+
+#: admin/floating-section.php:48
+msgid "Expand"
+msgstr "Expandera"
+
+#: admin/tabs/analytic-tab.php:5 admin/tabs/blog-tab.php:5
+#: admin/tabs/ecommerce-tab.php:5 admin/tabs/gads-tab.php:5
+#: admin/tabs/sm-tab.php:5 admin/tabs/websites-tab.php:5
+msgid "Hemsidor enkel"
+msgstr "Hemsidor enkel"
+
+#: admin/tabs/analytic-tab.php:6 admin/tabs/blog-tab.php:6
+#: admin/tabs/ecommerce-tab.php:6 admin/tabs/gads-tab.php:6
+#: admin/tabs/seo-tab.php:6 admin/tabs/sm-tab.php:6
+#: admin/tabs/websites-tab.php:6
+msgid "hemsidor enkel description"
+msgstr "Detta är en beskrivning på hemsidor enkel"
+
+#: admin/tabs/analytic-tab.php:9 admin/tabs/blog-tab.php:9
+#: admin/tabs/ecommerce-tab.php:9 admin/tabs/gads-tab.php:9
+#: admin/tabs/sm-tab.php:9 admin/tabs/websites-tab.php:9
+msgid "5.000 kr / engångssumma <br> 299 kr / månad"
+msgstr "5.000 kr / engångssumma <br> 299 kr / månad"
+
+#: admin/tabs/analytic-tab.php:10 admin/tabs/blog-tab.php:10
+#: admin/tabs/ecommerce-tab.php:10 admin/tabs/gads-tab.php:10
+#: admin/tabs/sm-tab.php:10 admin/tabs/websites-tab.php:10
+msgid "440,45 Euro / one time <br> 26,34 Euro / month"
+msgstr "440,45 Euro / one time <br> 26,34 Euro / month"
+
+#: admin/tabs/analytic-tab.php:13 admin/tabs/analytic-tab.php:26
+#: admin/tabs/analytic-tab.php:39 admin/tabs/analytic-tab.php:64
+#: admin/tabs/blog-tab.php:13 admin/tabs/blog-tab.php:26
+#: admin/tabs/blog-tab.php:39 admin/tabs/blog-tab.php:64
+#: admin/tabs/ecommerce-tab.php:13 admin/tabs/ecommerce-tab.php:26
+#: admin/tabs/ecommerce-tab.php:39 admin/tabs/ecommerce-tab.php:64
+#: admin/tabs/gads-tab.php:13 admin/tabs/gads-tab.php:26
+#: admin/tabs/gads-tab.php:39 admin/tabs/gads-tab.php:64
+#: admin/tabs/home-tab.php:12 admin/tabs/home-tab.php:25
+#: admin/tabs/home-tab.php:38 admin/tabs/seo-tab.php:13
+#: admin/tabs/seo-tab.php:26 admin/tabs/seo-tab.php:39
+#: admin/tabs/seo-tab.php:64 admin/tabs/sm-tab.php:13 admin/tabs/sm-tab.php:26
+#: admin/tabs/sm-tab.php:39 admin/tabs/sm-tab.php:64
+#: admin/tabs/websites-tab.php:13 admin/tabs/websites-tab.php:26
+#: admin/tabs/websites-tab.php:39 admin/tabs/websites-tab.php:64
+msgid "📄 Kontakta oss"
+msgstr "📄 Kontakta oss"
+
+#: admin/tabs/analytic-tab.php:14 admin/tabs/blog-tab.php:14
+#: admin/tabs/ecommerce-tab.php:14 admin/tabs/gads-tab.php:14
+#: admin/tabs/sm-tab.php:14 admin/tabs/websites-tab.php:14
+msgid "⚙️ Läs mer om Hemsidor enkel"
+msgstr "⚙️ Läs mer om Hemsidor enkel"
+
+#: admin/tabs/analytic-tab.php:18 admin/tabs/blog-tab.php:18
+#: admin/tabs/ecommerce-tab.php:18 admin/tabs/gads-tab.php:18
+#: admin/tabs/sm-tab.php:18 admin/tabs/websites-tab.php:18
+msgid "Hemsidor medelstor"
+msgstr "Hemsidor medelstor"
+
+#: admin/tabs/analytic-tab.php:19 admin/tabs/blog-tab.php:19
+#: admin/tabs/ecommerce-tab.php:19 admin/tabs/gads-tab.php:19
+#: admin/tabs/seo-tab.php:19 admin/tabs/sm-tab.php:19
+#: admin/tabs/websites-tab.php:19
+msgid "hemsidor medelstor description"
+msgstr "Detta är en beskrivning på hemsidor medelstor"
+
+#: admin/tabs/analytic-tab.php:22 admin/tabs/blog-tab.php:22
+#: admin/tabs/ecommerce-tab.php:22 admin/tabs/gads-tab.php:22
+#: admin/tabs/sm-tab.php:22 admin/tabs/websites-tab.php:22
+msgid "12.000 kr / engångssumma <br> 799 kr / månad"
+msgstr "12.000 kr / engångssumma <br> 799 kr / månad"
+
+#: admin/tabs/analytic-tab.php:23 admin/tabs/blog-tab.php:23
+#: admin/tabs/ecommerce-tab.php:23 admin/tabs/gads-tab.php:23
+#: admin/tabs/sm-tab.php:23 admin/tabs/websites-tab.php:23
+msgid "1 055,80 Euro / one time <br> 70,30 Euro / month"
+msgstr "1 055,80 Euro / one time <br> 70,30 Euro / month"
+
+#: admin/tabs/analytic-tab.php:27 admin/tabs/blog-tab.php:27
+#: admin/tabs/ecommerce-tab.php:27 admin/tabs/gads-tab.php:27
+#: admin/tabs/sm-tab.php:27 admin/tabs/websites-tab.php:27
+msgid "⚙️ Läs mer om hemsidor medelstor"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:31 admin/tabs/blog-tab.php:31
+#: admin/tabs/ecommerce-tab.php:31 admin/tabs/gads-tab.php:31
+#: admin/tabs/sm-tab.php:31 admin/tabs/websites-tab.php:31
+msgid "Hemsidor avancerad"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:32 admin/tabs/blog-tab.php:32
+#: admin/tabs/ecommerce-tab.php:32 admin/tabs/gads-tab.php:32
+#: admin/tabs/seo-tab.php:32 admin/tabs/sm-tab.php:32
+#: admin/tabs/websites-tab.php:32
+msgid "hemsidor avancerad description"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:35 admin/tabs/blog-tab.php:35
+#: admin/tabs/ecommerce-tab.php:35 admin/tabs/gads-tab.php:35
+#: admin/tabs/sm-tab.php:35 admin/tabs/websites-tab.php:35
+msgid "22.000 kr / engångssumma <br> 1.499 kr / månad"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:36 admin/tabs/blog-tab.php:36
+#: admin/tabs/ecommerce-tab.php:36 admin/tabs/gads-tab.php:36
+#: admin/tabs/sm-tab.php:36 admin/tabs/websites-tab.php:36
+msgid "1 935,64 Euro / one time <br> 131,89 Euro Euro / month"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:40 admin/tabs/blog-tab.php:40
+#: admin/tabs/ecommerce-tab.php:40 admin/tabs/gads-tab.php:40
+#: admin/tabs/sm-tab.php:40 admin/tabs/websites-tab.php:40
+msgid "⚙️ Läs mer om hemsidor avancerad"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:50 admin/tabs/blog-tab.php:50
+#: admin/tabs/ecommerce-tab.php:50 admin/tabs/gads-tab.php:50
+#: admin/tabs/seo-tab.php:50 admin/tabs/sm-tab.php:50
+#: admin/tabs/websites-tab.php:50
+msgid "Nya Hemsidetjänster"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:51 admin/tabs/blog-tab.php:51
+#: admin/tabs/ecommerce-tab.php:51 admin/tabs/gads-tab.php:51
+#: admin/tabs/seo-tab.php:51 admin/tabs/sm-tab.php:51
+#: admin/tabs/websites-tab.php:51
+msgid ""
+"Upptäck våra nya och innovativa hemsidetjänster som är anpassade för alla "
+"typer av företag."
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:56 admin/tabs/blog-tab.php:56
+#: admin/tabs/ecommerce-tab.php:56 admin/tabs/gads-tab.php:56
+#: admin/tabs/seo-tab.php:56 admin/tabs/sm-tab.php:56
+#: admin/tabs/websites-tab.php:56
+msgid "Hemsida Premium"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:57 admin/tabs/blog-tab.php:57
+#: admin/tabs/ecommerce-tab.php:57 admin/tabs/gads-tab.php:57
+#: admin/tabs/seo-tab.php:57 admin/tabs/sm-tab.php:57
+#: admin/tabs/websites-tab.php:57
+msgid "hemsida premium description"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:60 admin/tabs/blog-tab.php:60
+#: admin/tabs/ecommerce-tab.php:60 admin/tabs/gads-tab.php:60
+#: admin/tabs/seo-tab.php:60 admin/tabs/sm-tab.php:60
+#: admin/tabs/websites-tab.php:60
+msgid "30.000 kr / engångssumma <br> 1.999 kr / månad"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:61 admin/tabs/blog-tab.php:61
+#: admin/tabs/ecommerce-tab.php:61 admin/tabs/gads-tab.php:61
+#: admin/tabs/seo-tab.php:61 admin/tabs/sm-tab.php:61
+#: admin/tabs/websites-tab.php:61
+msgid "2 640 Euro / one time <br> 175 Euro / month"
+msgstr ""
+
+#: admin/tabs/analytic-tab.php:65 admin/tabs/blog-tab.php:65
+#: admin/tabs/ecommerce-tab.php:65 admin/tabs/gads-tab.php:65
+#: admin/tabs/seo-tab.php:65 admin/tabs/sm-tab.php:65
+#: admin/tabs/websites-tab.php:65
+msgid "⚙️ Läs mer om Hemsida Premium"
+msgstr ""
+
+#: admin/tabs/home-tab.php:4
+msgid "Sökmotoroptimering nivå 1"
+msgstr ""
+
+#: admin/tabs/home-tab.php:5
+msgid ""
+"Öka din synlighet med vår SEO nivå 1-tjänst! Få riktad trafik, förbättra "
+"dina placeringar och attrahera fler kunder redan idag. Låt oss hjälpa ditt "
+"företag att växa online!"
+msgstr ""
+
+#: admin/tabs/home-tab.php:8
+msgid "3,490kr / månad"
+msgstr ""
+
+#: admin/tabs/home-tab.php:9
+msgid "306,53 Euro / month"
+msgstr ""
+
+#: admin/tabs/home-tab.php:13 admin/tabs/seo-tab.php:14
+msgid "⚙️ Läs mer om SEO nivå 1"
+msgstr ""
+
+#: admin/tabs/home-tab.php:17
+msgid "Sökmotoroptimering nivå 2"
+msgstr ""
+
+#: admin/tabs/home-tab.php:18
+msgid ""
+"Maximera din onlinepotential med vår tjänst SEO Nivå 2! Få avancerade "
+"optimeringsstrategier som ger ännu mer trafik, förbättrar konverteringar och "
+"ger ditt företag en konkurrensfördel."
+msgstr ""
+
+#: admin/tabs/home-tab.php:21
+msgid "4,990kr / månad"
+msgstr ""
+
+#: admin/tabs/home-tab.php:22 admin/tabs/seo-tab.php:23
+msgid "439,04 Euro / month"
+msgstr ""
+
+#: admin/tabs/home-tab.php:26 admin/tabs/home-tab.php:39
+#: admin/tabs/seo-tab.php:27
+msgid "⚙️ Läs mer om SEO nivå 2"
+msgstr ""
+
+#: admin/tabs/home-tab.php:30
+msgid "Sökmotoroptimering nivå 3"
+msgstr ""
+
+#: admin/tabs/home-tab.php:31
+msgid ""
+"Dominera sökresultaten med vår tjänst SEO Nivå 3! Upplev storskalig "
+"optimering, skräddarsydda strategier och premiumsupport för att säkerställa "
+"maximal trafik, konverteringar och långsiktig tillväxt för ditt företag."
+msgstr ""
+
+#: admin/tabs/home-tab.php:34
+msgid "9.940kr / månad"
+msgstr ""
+
+#: admin/tabs/home-tab.php:35 admin/tabs/seo-tab.php:36
+msgid "874,56 Euro / month"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:5
+msgid "SEO nivå 1"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:9
+msgid "3,490 kr / månad"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:10
+msgid "307,06 Euro / month"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:18
+msgid "SEO nivå 2"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:22
+msgid "4,990 kr / månad"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:31
+msgid "SEO nivå 3"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:35
+msgid "9,940 kr / månad"
+msgstr ""
+
+#: admin/tabs/seo-tab.php:40
+msgid "⚙️ Läs mer om SEO nivå 3"
+msgstr ""
+
+#: imba-seo-plugin.php:114
+msgid "Imba"
+msgstr ""
+
+#: imba-seo-plugin.php:125 imba-seo-plugin.php:126
+msgid "Check Imba SEO website"
+msgstr ""
+
+#: imba-seo-plugin.php:135 imba-seo-plugin.php:136
+msgid "Check Web Imba website"
+msgstr ""
