@@ -47,22 +47,22 @@
 
     <!-- New section with heading and text -->
     <div class="imba-new-section">
-        <h2><?php _e('Nya Hemsidetjänster', 'imba-seo-plugin'); ?></h2>
-        <p><?php _e('Upptäck våra nya och innovativa hemsidetjänster som är anpassade för alla typer av företag.', 'imba-seo-plugin'); ?></p>
+        <h2><?php _e('Flera tillägg för er webbplats', 'imba-seo-plugin'); ?></h2>
+        <p><?php _e('Are you missing any extra functionality or just want one of our experts to look at you websites health on monthly basis?', 'imba-seo-plugin'); ?></p>
 
         <!-- New area for additional cards -->
         <div class="imba-cards">
             <div class="imba-card">
-                <h3><?php _e('Hemsida Premium', 'imba-seo-plugin'); ?></h3>
-                <p><?php _e('hemsida premium description', 'imba-seo-plugin'); ?></p>
+                <h3><?php _e('Driftstörningskoll', 'imba-seo-plugin'); ?></h3>
+                <p><?php _e('This is the description of drifstörningskoll', 'imba-seo-plugin'); ?></p>
                 <!-- Price section -->
                 <div class="imba-price">
-                    <span class="price-sek"><?php _e('30.000 kr / engångssumma <br> 1.999 kr / månad', 'imba-seo-plugin'); ?></span>
-                    <span class="price-eur" style="display:none;"><?php _e('2 640 Euro / one time <br> 175 Euro / month', 'imba-seo-plugin'); ?></span>
+                    <span class="price-sek"><?php _e('490 kr / månad', 'imba-seo-plugin'); ?></span>
+                    <span class="price-eur" style="display:none;"><?php _e('43,11 Euro Euro / month', 'imba-seo-plugin'); ?></span>
                 </div>
                 <div class="imba-card-footer">
                     <a href="https://imbaseo.se/kontakta-oss/" class="imba-icon-link"><?php _e('📄 Kontakta oss', 'imba-seo-plugin'); ?></a>
-                    <a href="https://imbaseo.se/google-ads/" class="imba-icon-link"><?php _e('⚙️ Läs mer om Hemsida Premium', 'imba-seo-plugin'); ?></a>
+                    <a href="https://imbaseo.se/google-ads/" class="imba-icon-link"><?php _e('⚙️ Read more about driftstörningskoll', 'imba-seo-plugin'); ?></a>
                 </div>
             </div>
             <!-- Add more cards as needed -->

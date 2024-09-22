@@ -10,7 +10,7 @@ function imba_seo_floating_section() {
                 </a>
             </div>
             <div style="margin-bottom:15px;">
-                <a href="https://yourwebsite.com/contact" target="_blank" style="background-color:#46b450;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;display:inline-block;width:100%;font-size:14px;">
+                <a href="https://imbaseo.se/kontakta-oss/" target="_blank" style="background-color:#46b450;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;display:inline-block;width:100%;font-size:14px;">
                     <?php _e('Contact Us', 'imba-seo-plugin'); ?>
                 </a>
             </div>
