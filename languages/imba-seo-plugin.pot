@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imba SEO Plugin\n"
+"Language: sv_SE\n"
+
+msgid "Imba SEO"
+msgstr ""
+
+msgid "Imba"
+msgstr ""
+
+msgid "SEO Services"
+msgstr ""
+
+msgid "Google Ads"
+msgstr ""
+
+msgid "Social Media"
+msgstr ""
+
+msgid "Web Development"
+msgstr ""
